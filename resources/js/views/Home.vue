@@ -368,3 +368,19 @@
 </section>
     </div>
 </template>
+
+<script>
+    export default {
+        data() {
+            return {
+                pricing: []
+            }
+        },
+        created() {
+            let uri = 'http://localhost:8000/api/pricing';
+            this.axios.get(uri).then(response => {
+                this.pricing = response.data.data;
+            });
+        }
+    }
+</script>
