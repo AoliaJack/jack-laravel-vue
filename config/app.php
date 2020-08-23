@@ -14,6 +14,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
+    'mix_url' => env('APP_URL', 'http://localhost/project/niaga/laravel-up/public'),
 
     /*
     |--------------------------------------------------------------------------
