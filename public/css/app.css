@@ -1,56 +1,4 @@
-@font-face {
-font-family: "Montserrat-Bold";
-src: url(/fonts/Montserrat-Bold.otf?5a6aef823dd8d1b22aacd78aebb653d6) format('opentype');
-}
-@font-face {
-font-family: "Montserrat-Light";
-src: url(/fonts/Montserrat-Light.otf?f5e955efb2bef154ac6dd150903f2d45) format('opentype');
-}
-@font-face {
-font-family: "Roboto-Regular";
-src: url(/fonts/Roboto-Regular.ttf?5673da52c98bb6cb33ada5aaf649703e) format('truetype');
-}
-@font-face {
-font-family: "Roboto-Medium";
-src: url(/fonts/Roboto-Medium.ttf?9745415b8a2a8b9a2480a12f7e2d3ad3) format('truetype');
-}
-.border-top {
-    border-top: .1rem solid #f5f5f5;
-}
-.price-title {
-    font-family: 'Montserrat-Bold';
-}
-.icons-size {
-    font-size: 16px !important;
-}
-.bb {
-    border-bottom: .1rem solid #f5f5f5;
-}
-.bfooter {
-    background:#333;
-}
-.small-line {
-    width: 100px;
-    height: 5px;
-    margin: auto;
-}
-.footer li,p {
-    line-height: 2;
-    font-size: 0.85em;
-    font-family: 'Roboto-Medium';
-}
-body {
-    font-family: 'Roboto-Regular', sans-serif;
-}
-.title {
-font-family: 'Montserrat-Bold';
-}
-.title-medium {
-font-family: 'Roboto-Medium', sans-serif;
-}
-.subtitle {
-font-family: 'Montserrat-Light';
-}
+
 
 
 .list-check {
@@ -561,7 +509,7 @@ button,
 input,
 select,
 textarea {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
 }
 
 code,
@@ -11210,15 +11158,15 @@ a.has-text-danger-dark:focus {
 }
 
 .is-family-primary {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+  font-family: "Roboto-Regular", sans-serif !important;
 }
 
 .is-family-secondary {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+  font-family: "Roboto-Regular", sans-serif !important;
 }
 
 .is-family-sans-serif {
-  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+  font-family: "Roboto-Regular", sans-serif !important;
 }
 
 .is-family-monospace {

@@ -2495,14 +2495,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-// export default {
-// data: function() {
-//     return {
-//         showNav: false
-//     }
-// }
-// }
-var baseUrl = 'http://localhost:8000/';
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -2518,16 +2513,7 @@ var baseUrl = 'http://localhost:8000/';
     axios.get(uri).then(function (response) {
       _this.pricing = response.data.data;
     });
-  } // methods: {
-  //     loadData() {
-  //         axios
-  //         .get("http://localhost:8000/api/pricing")
-  //         .then(response => {
-  //             this.pricing = response.data.data;
-  //         });
-  //     }
-  // }
-
+  }
 });
 
 /***/ }),
@@ -38124,7 +38110,7 @@ var render = function() {
             _c("div", { staticClass: "level-item" }, [
               _c("a", { staticClass: "has-text-grey", attrs: { href: "#" } }, [
                 _c("img", {
-                  attrs: { src: "/images/phone.png", alt: "", width: "20px" }
+                  attrs: { src: "images/phone.png", alt: "", width: "20px" }
                 }),
                 _c("span", [_vm._v("0274-5305505")])
               ])
@@ -38133,7 +38119,7 @@ var render = function() {
             _c("div", { staticClass: "level-item" }, [
               _c("a", { staticClass: "has-text-grey", attrs: { href: "#" } }, [
                 _c("img", {
-                  attrs: { src: "/images/forum.png", alt: "", width: "20px" }
+                  attrs: { src: "images/forum.png", alt: "", width: "20px" }
                 }),
                 _c("span", [_vm._v("Live Chat")])
               ])
@@ -38142,7 +38128,7 @@ var render = function() {
             _c("div", { staticClass: "level-item" }, [
               _c("a", { staticClass: "has-text-grey", attrs: { href: "#" } }, [
                 _c("img", {
-                  attrs: { src: "/images/account.png", alt: "", width: "20px" }
+                  attrs: { src: "images/account.png", alt: "", width: "20px" }
                 }),
                 _vm._v(" "),
                 _c("span", [_vm._v("Member Area")])
@@ -38164,7 +38150,7 @@ var render = function() {
           _c("div", { staticClass: "navbar-brand" }, [
             _c("a", { staticClass: "navbar-item", attrs: { href: "#" } }, [
               _c("img", {
-                attrs: { src: "/images/niagahoster-logo.png", height: "70" }
+                attrs: { src: "images/niagahoster-logo.png", height: "70" }
               })
             ]),
             _vm._v(" "),
@@ -38176,7 +38162,7 @@ var render = function() {
               },
               [
                 _c("img", {
-                  attrs: { src: "/images/forum.png", alt: "", width: "20px" }
+                  attrs: { src: "images/forum.png", alt: "", width: "20px" }
                 })
               ]
             ),
@@ -38189,7 +38175,7 @@ var render = function() {
               },
               [
                 _c("img", {
-                  attrs: { src: "/images/account.png", alt: "", width: "20px" }
+                  attrs: { src: "images/account.png", alt: "", width: "20px" }
                 })
               ]
             ),
@@ -38238,12 +38224,62 @@ var render = function() {
       _c("div", { staticClass: "hero-body" }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "columns" }, [
-            _vm._m(2),
+            _c("div", { staticClass: "column" }, [
+              _c("h1", { staticClass: "title title is-2" }, [
+                _vm._v("PHP Hosting")
+              ]),
+              _vm._v(" "),
+              _c("h2", { staticClass: "subtitleondary subtitle is-3" }, [
+                _vm._v(
+                  "Cepat, handal, penuh dengan modul PHP yang anda butuhkan"
+                )
+              ]),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [
+                  _c("img", {
+                    attrs: { src: "images/check.png", alt: "", width: "15" }
+                  }),
+                  _vm._v(" "),
+                  _c("span", [
+                    _vm._v("Solusi PHP untuk peforma query yang lebih cepat.")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("img", {
+                    attrs: { src: "images/check.png", alt: "", width: "15" }
+                  }),
+                  _vm._v(" "),
+                  _c("span", [_vm._v("Konsumsi memori yang lebih rendah.")])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("img", {
+                    attrs: { src: "images/check.png", alt: "", width: "15" }
+                  }),
+                  _vm._v(" "),
+                  _c("span", [
+                    _vm._v("Support PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6, PHP 7")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("img", {
+                    attrs: { src: "images/check.png", alt: "", width: "15" }
+                  }),
+                  _vm._v(" "),
+                  _c("span", [
+                    _vm._v("Fitur enkripsi ionCube dan Zend Guard Loaders")
+                  ])
+                ])
+              ])
+            ]),
             _vm._v(" "),
             _c("div", { staticClass: "column" }, [
               _c("img", {
                 attrs: {
-                  src: "/svg/illustration banner PHP hosting-01.svg",
+                  src: "svg/illustration banner PHP hosting-01.svg",
                   alt: ""
                 }
               })
@@ -38269,7 +38305,7 @@ var render = function() {
                     _c("p", { staticClass: "has-text-centered " }, [
                       _c("embed", {
                         attrs: {
-                          src: "/svg/icon PHP Hosting_zendguard.svg",
+                          src: "svg/icon PHP Hosting_zendguard.svg",
                           alt: ""
                         }
                       })
@@ -38289,7 +38325,7 @@ var render = function() {
                     _c("p", { staticClass: "has-text-centered" }, [
                       _c("embed", {
                         attrs: {
-                          src: "/svg/icon PHP Hosting_composer.svg",
+                          src: "svg/icon PHP Hosting_composer.svg",
                           alt: ""
                         }
                       })
@@ -38309,7 +38345,7 @@ var render = function() {
                     _c("p", { staticClass: "has-text-centered" }, [
                       _c("embed", {
                         attrs: {
-                          src: "/svg/icon PHP Hosting_ioncube.svg",
+                          src: "svg/icon PHP Hosting_ioncube.svg",
                           alt: ""
                         }
                       })
@@ -38494,7 +38530,7 @@ var render = function() {
                           _c("span", { staticClass: "icon" }, [
                             _c("img", {
                               attrs: {
-                                src: "/images/check.png",
+                                src: "images/check.png",
                                 alt: "",
                                 width: "15"
                               }
@@ -38510,7 +38546,7 @@ var render = function() {
                           _c("span", { staticClass: "icon" }, [
                             _c("img", {
                               attrs: {
-                                src: "/images/check.png",
+                                src: "images/check.png",
                                 alt: "",
                                 width: "15"
                               }
@@ -38526,7 +38562,7 @@ var render = function() {
                           _c("span", { staticClass: "icon" }, [
                             _c("img", {
                               attrs: {
-                                src: "/images/check.png",
+                                src: "images/check.png",
                                 alt: "",
                                 width: "15"
                               }
@@ -38552,7 +38588,7 @@ var render = function() {
                           _c("span", { staticClass: "icon" }, [
                             _c("img", {
                               attrs: {
-                                src: "/images/check.png",
+                                src: "images/check.png",
                                 alt: "",
                                 width: "15"
                               }
@@ -38568,7 +38604,7 @@ var render = function() {
                           _c("span", { staticClass: "icon" }, [
                             _c("img", {
                               attrs: {
-                                src: "/images/check.png",
+                                src: "images/check.png",
                                 alt: "",
                                 width: "15"
                               }
@@ -38584,7 +38620,7 @@ var render = function() {
                           _c("span", { staticClass: "icon" }, [
                             _c("img", {
                               attrs: {
-                                src: "/images/check.png",
+                                src: "images/check.png",
                                 alt: "",
                                 width: "15"
                               }
@@ -38617,7 +38653,7 @@ var render = function() {
             _c("div", { staticClass: "column is-4 has-text-centered" }, [
               _c("img", {
                 attrs: {
-                  src: "/svg/icon PHP Hosting_PHP Semua Versi.svg",
+                  src: "svg/icon PHP Hosting_PHP Semua Versi.svg",
                   alt: "",
                   width: "100px"
                 }
@@ -38627,13 +38663,13 @@ var render = function() {
                 _vm._v("PHP Semua Versi")
               ]),
               _vm._v(" "),
-              _vm._m(3)
+              _vm._m(2)
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "column is-4 has-text-centered" }, [
               _c("img", {
                 attrs: {
-                  src: "/svg/icon PHP Hosting_My SQL.svg",
+                  src: "svg/icon PHP Hosting_My SQL.svg",
                   alt: "",
                   width: "100px"
                 }
@@ -38653,7 +38689,7 @@ var render = function() {
             _c("div", { staticClass: "column is-4 has-text-centered" }, [
               _c("img", {
                 attrs: {
-                  src: "/svg/icon PHP Hosting_CPanel.svg",
+                  src: "svg/icon PHP Hosting_CPanel.svg",
                   alt: "",
                   width: "100px"
                 }
@@ -38673,7 +38709,7 @@ var render = function() {
             _c("div", { staticClass: "column is-4 has-text-centered" }, [
               _c("img", {
                 attrs: {
-                  src: "/svg/icon PHP Hosting_garansi uptime.svg",
+                  src: "svg/icon PHP Hosting_garansi uptime.svg",
                   alt: "",
                   width: "100px"
                 }
@@ -38693,7 +38729,7 @@ var render = function() {
             _c("div", { staticClass: "column is-4 has-text-centered" }, [
               _c("img", {
                 attrs: {
-                  src: "/svg/icon PHP Hosting_InnoDB.svg",
+                  src: "svg/icon PHP Hosting_InnoDB.svg",
                   alt: "",
                   width: "100px"
                 }
@@ -38713,7 +38749,7 @@ var render = function() {
             _c("div", { staticClass: "column is-4 has-text-centered" }, [
               _c("img", {
                 attrs: {
-                  src: "/svg/icon PHP Hosting_My SQL remote.svg",
+                  src: "svg/icon PHP Hosting_My SQL remote.svg",
                   alt: "",
                   width: "100px"
                 }
@@ -38744,12 +38780,12 @@ var render = function() {
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "columns is-variable is-8" }, [
-            _vm._m(4),
+            _vm._m(3),
             _vm._v(" "),
             _c("div", { staticClass: "column" }, [
               _c("img", {
                 attrs: {
-                  src: "/svg/illustration banner support laravel hosting.svg",
+                  src: "svg/illustration banner support laravel hosting.svg",
                   alt: ""
                 }
               })
@@ -38759,18 +38795,16 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(5),
+    _vm._m(4),
     _vm._v(" "),
     _c("section", { staticClass: "hero" }, [
       _c("div", { staticClass: "hero-body" }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "columns is-variable is-8" }, [
-            _vm._m(6),
+            _vm._m(5),
             _vm._v(" "),
             _c("div", { staticClass: "column" }, [
-              _c("img", {
-                attrs: { src: "/images/Image support.png", alt: "" }
-              })
+              _c("img", { attrs: { src: "images/Image support.png", alt: "" } })
             ])
           ])
         ])
@@ -38781,13 +38815,13 @@ var render = function() {
       _c("div", { staticClass: "hero-body" }, [
         _c("div", { staticClass: "container" }, [
           _c("div", { staticClass: "level" }, [
-            _vm._m(7),
+            _vm._m(6),
             _vm._v(" "),
             _c("div", { staticClass: "level-right" }, [
               _c("div", { staticClass: "level-item" }, [
                 _c("a", { attrs: { href: "#" } }, [
                   _c("img", {
-                    attrs: { src: "/images/facebook.png", alt: "", width: "40" }
+                    attrs: { src: "images/facebook.png", alt: "", width: "40" }
                   })
                 ]),
                 _vm._v(" "),
@@ -38801,7 +38835,7 @@ var render = function() {
               _c("div", { staticClass: "level-item" }, [
                 _c("a", { attrs: { href: "#" } }, [
                   _c("img", {
-                    attrs: { src: "/images/twitter.png", alt: "", width: "40" }
+                    attrs: { src: "images/twitter.png", alt: "", width: "40" }
                   })
                 ]),
                 _vm._v(" "),
@@ -38816,7 +38850,7 @@ var render = function() {
                 _c("a", { attrs: { href: "#" } }, [
                   _c("img", {
                     attrs: {
-                      src: "/images/google-plus.png",
+                      src: "images/google-plus.png",
                       alt: "",
                       width: "40"
                     }
@@ -38835,19 +38869,19 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(8),
+    _vm._m(7),
     _vm._v(" "),
     _c("section", { staticClass: "hero is-dark footer" }, [
       _c("div", { staticClass: "hero-body" }, [
         _c("div", { staticClass: "container" }, [
-          _vm._m(9),
+          _vm._m(8),
           _vm._v(" "),
           _c("div", { staticClass: "columns  is-variable is-8" }, [
+            _vm._m(9),
+            _vm._v(" "),
             _vm._m(10),
             _vm._v(" "),
             _vm._m(11),
-            _vm._v(" "),
-            _vm._m(12),
             _vm._v(" "),
             _c("div", { staticClass: "column" }, [
               _c("div", { staticClass: "level" }, [
@@ -38856,7 +38890,7 @@ var render = function() {
                     _c("figure", { staticClass: "image is-64x64" }, [
                       _c("img", {
                         staticClass: "is-rounded border-img",
-                        attrs: { src: "/images/facebook-black.png", alt: "" }
+                        attrs: { src: "images/facebook-black.png", alt: "" }
                       })
                     ])
                   ])
@@ -38867,7 +38901,7 @@ var render = function() {
                     _c("figure", { staticClass: "image is-64x64" }, [
                       _c("img", {
                         staticClass: "is-rounded border-img",
-                        attrs: { src: "/images/twitter-black.png", alt: "" }
+                        attrs: { src: "images/twitter-black.png", alt: "" }
                       })
                     ])
                   ])
@@ -38878,7 +38912,7 @@ var render = function() {
                     _c("figure", { staticClass: "image is-64x64" }, [
                       _c("img", {
                         staticClass: "is-rounded border-img",
-                        attrs: { src: "/images/google-plus-black.png", alt: "" }
+                        attrs: { src: "images/google-plus-black.png", alt: "" }
                       })
                     ])
                   ])
@@ -38887,11 +38921,11 @@ var render = function() {
             ])
           ]),
           _vm._v(" "),
-          _vm._m(13),
+          _vm._m(12),
           _vm._v(" "),
           _c("hr", { staticClass: "bfooter" }),
           _vm._v(" "),
-          _vm._m(14)
+          _vm._m(13)
         ])
       ])
     ])
@@ -38952,38 +38986,6 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("a", { staticClass: "navbar-item" }, [
           _vm._v("\n                        Blog\n                      ")
-        ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "column" }, [
-      _c("h1", { staticClass: "title title is-2" }, [_vm._v("PHP Hosting")]),
-      _vm._v(" "),
-      _c("h2", { staticClass: "subtitleondary subtitle is-3" }, [
-        _vm._v("Cepat, handal, penuh dengan modul PHP yang anda butuhkan")
-      ]),
-      _vm._v(" "),
-      _c("ul", { staticClass: "list-check" }, [
-        _c("li", [
-          _c("span", [
-            _vm._v("Solusi PHP untuk peforma query yang lebih cepat.")
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", [_c("span", [_vm._v("Konsumsi memori yang lebih rendah.")])]),
-        _vm._v(" "),
-        _c("li", [
-          _c("span", [
-            _vm._v("Support PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6, PHP 7")
-          ])
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c("span", [_vm._v("Fitur enkripsi ionCube dan Zend Guard Loaders")])
         ])
       ])
     ])

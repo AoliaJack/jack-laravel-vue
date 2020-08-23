@@ -11,15 +11,15 @@
                 </div>
                 <div class="level-right">
                     <div class="level-item">
-                        <a href="#" class="has-text-grey"><img :src="'/images/phone.png'" alt="" width="20px"><span>0274-5305505</span></a>
+                        <a href="#" class="has-text-grey"><img :src="'images/phone.png'" alt="" width="20px"><span>0274-5305505</span></a>
 
                     </div>
                     <div class="level-item">
-                        <a href="#" class="has-text-grey"><img :src="'/images/forum.png'" alt="" width="20px"><span>Live Chat</span></a>
+                        <a href="#" class="has-text-grey"><img :src="'images/forum.png'" alt="" width="20px"><span>Live Chat</span></a>
 
                     </div>
                     <div class="level-item">
-                        <a href="#" class="has-text-grey"><img :src="'/images/account.png'" alt="" width="20px"> <span>Member Area</span></a>
+                        <a href="#" class="has-text-grey"><img :src="'images/account.png'" alt="" width="20px"> <span>Member Area</span></a>
                     </div>
                 </div>
             </div>
@@ -29,10 +29,10 @@
           <div class="container">
               <div class="navbar-brand">
                 <a class="navbar-item" href="#">
-                  <img :src="'/images/niagahoster-logo.png'" height="70">
+                  <img :src="'images/niagahoster-logo.png'" height="70">
                 </a>
-                    <a href="#" class="has-text-grey navbar-item is-hidden-desktop"><img :src="'/images/forum.png'" alt="" width="20px"></a>
-                    <a href="#" class="has-text-grey navbar-item is-hidden-desktop"><img :src="'/images/account.png'" alt="" width="20px"></a>
+                    <a href="#" class="has-text-grey navbar-item is-hidden-desktop"><img :src="'images/forum.png'" alt="" width="20px"></a>
+                    <a href="#" class="has-text-grey navbar-item is-hidden-desktop"><img :src="'images/account.png'" alt="" width="20px"></a>
 
 
                 <a role="button" class="navbar-burger burger" @click="showNav = !showNav" :class="{ 'is-active': showNav }" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -96,17 +96,17 @@
                 <h1 class="title title is-2">PHP Hosting</h1>
                 <h2 class="subtitleondary subtitle is-3">Cepat, handal, penuh dengan modul PHP yang anda butuhkan</h2>
 
-                    <ul class="list-check">
-                        <li><span>Solusi PHP untuk peforma query yang lebih cepat.</span></li>
-                        <li><span>Konsumsi memori yang lebih rendah.</span></li>
-                        <li><span>Support PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6, PHP 7</span></li>
-                        <li><span>Fitur enkripsi ionCube dan Zend Guard Loaders</span></li>
+                    <ul>
+                        <li><img :src="'images/check.png'" alt="" width="15"> <span>Solusi PHP untuk peforma query yang lebih cepat.</span></li>
+                        <li><img :src="'images/check.png'" alt="" width="15"> <span>Konsumsi memori yang lebih rendah.</span></li>
+                        <li><img :src="'images/check.png'" alt="" width="15"> <span>Support PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6, PHP 7</span></li>
+                        <li><img :src="'images/check.png'" alt="" width="15"> <span>Fitur enkripsi ionCube dan Zend Guard Loaders</span></li>
                     </ul>
 
 
             </div>
             <div class="column">
-                <img :src="'/svg/illustration banner PHP hosting-01.svg'" alt="">
+                <img :src="'svg/illustration banner PHP hosting-01.svg'" alt="">
             </div>
         </div>
     </div>
@@ -121,7 +121,7 @@
                 <div class="columns" style="align-items: baseline">
                     <div class="column">
                         <p class="has-text-centered ">
-                            <embed :src="'/svg/icon PHP Hosting_zendguard.svg'" alt="">
+                            <embed :src="'svg/icon PHP Hosting_zendguard.svg'" alt="">
                         </p>
                         <p>
                             <h6 class="subtitle has-text-centered is-6 m-t-md">PHP Zend Guard Loader</h6>
@@ -129,7 +129,7 @@
                     </div>
                     <div class="column">
                         <p class="has-text-centered">
-                            <embed :src="'/svg/icon PHP Hosting_composer.svg'" alt="">
+                            <embed :src="'svg/icon PHP Hosting_composer.svg'" alt="">
                         </p>
                         <p>
                             <h6 class="subtitle has-text-centered is-6 m-t-md">PHP Composer</h6>
@@ -137,7 +137,7 @@
                     </div>
                     <div class="column">
                         <p class="has-text-centered">
-                            <embed :src="'/svg/icon PHP Hosting_ioncube.svg'" alt="">
+                            <embed :src="'svg/icon PHP Hosting_ioncube.svg'" alt="">
                         </p>
                         <p>
                             <h6 class="subtitle has-text-centered is-6 m-t-md">PHP ionCube Loader</h6>
@@ -189,26 +189,26 @@
                     <div class="column">
                         <table class="table is-bordered is-striped is-fullwidth">
                             <tr>
-                                <td class="has-text-centered"><span class="icon"><img :src="'/images/check.png'" alt="" width="15"></span>  <span class="">Max execution time 300s</span></td>
+                                <td class="has-text-centered"><span class="icon"><img :src="'images/check.png'" alt="" width="15"></span>  <span class="">Max execution time 300s</span></td>
                             </tr>
                             <tr>
-                                <td class="has-text-centered"><span class="icon"><img :src="'/images/check.png'" alt="" width="15"></span> <span>Max execution time 300s</span></td>
+                                <td class="has-text-centered"><span class="icon"><img :src="'images/check.png'" alt="" width="15"></span> <span>Max execution time 300s</span></td>
                             </tr>
                             <tr>
-                                <td class="has-text-centered"><span class="icon"><img :src="'/images/check.png'" alt="" width="15"></span> <span>php memory limit 1024 MB</span></td>
+                                <td class="has-text-centered"><span class="icon"><img :src="'images/check.png'" alt="" width="15"></span> <span>php memory limit 1024 MB</span></td>
                             </tr>
                         </table>
                     </div>
                     <div class="column">
                         <table class="table is-bordered is-striped is-fullwidth">
                             <tr>
-                                <td class="has-text-centered"><span class="icon"><img :src="'/images/check.png'" alt="" width="15"></span> <span>post max size 128 MB</span></td>
+                                <td class="has-text-centered"><span class="icon"><img :src="'images/check.png'" alt="" width="15"></span> <span>post max size 128 MB</span></td>
                             </tr>
                             <tr>
-                                <td class="has-text-centered"><span class="icon"><img :src="'/images/check.png'" alt="" width="15"></span> <span>upload max filesize 128 MB</span></td>
+                                <td class="has-text-centered"><span class="icon"><img :src="'images/check.png'" alt="" width="15"></span> <span>upload max filesize 128 MB</span></td>
                             </tr>
                             <tr>
-                                <td class="has-text-centered"><span class="icon"><img :src="'/images/check.png'" alt="" width="15"></span> <span>max input vars 2500</span></td>
+                                <td class="has-text-centered"><span class="icon"><img :src="'images/check.png'" alt="" width="15"></span> <span>max input vars 2500</span></td>
                             </tr>
                         </table>
                     </div>
@@ -225,32 +225,32 @@
         <h1 class="subtitle is-3 has-text-centered">Semua Paket Hosting Sudah Termasuk</h1>
         <div class="columns is-multiline is-variable is-5">
             <div class="column is-4 has-text-centered">
-                <img :src="'/svg/icon PHP Hosting_PHP Semua Versi.svg'" alt="" width="100px">
+                <img :src="'svg/icon PHP Hosting_PHP Semua Versi.svg'" alt="" width="100px">
                 <h4 class="title is-4">PHP Semua Versi</h4>
                 <h6 class="subtitle is-6">Pilih mulai dari versi PHP 5.3 s/d PHP 7. <br>Ubah sesuka Anda! </h6>
             </div>
             <div class="column is-4 has-text-centered">
-                <img :src="'/svg/icon PHP Hosting_My SQL.svg'" alt="" width="100px">
+                <img :src="'svg/icon PHP Hosting_My SQL.svg'" alt="" width="100px">
                 <h4 class="title is-4">MySQL Versi 5.6</h4>
                 <h6 class="subtitle is-6">Nikmati MySQL versi terbaru, tercepat dan kaya akan fitur </h6>
             </div>
             <div class="column is-4 has-text-centered">
-                <img :src="'/svg/icon PHP Hosting_CPanel.svg'" alt="" width="100px">
+                <img :src="'svg/icon PHP Hosting_CPanel.svg'" alt="" width="100px">
                 <h4 class="title is-4">Panel Hosting cPanel</h4>
                 <h6 class="subtitle is-6">Kelola website dengan panel canggih yang familiar di hati Anda </h6>
             </div>
             <div class="column is-4 has-text-centered">
-                <img :src="'/svg/icon PHP Hosting_garansi uptime.svg'" alt="" width="100px">
+                <img :src="'svg/icon PHP Hosting_garansi uptime.svg'" alt="" width="100px">
                 <h4 class="title is-4">Garansi Uptime 99.9%</h4>
                 <h6 class="subtitle is-6">Data center yang mendukung kelangsungan website Anda 24/7 </h6>
             </div>
             <div class="column is-4 has-text-centered">
-                <img :src="'/svg/icon PHP Hosting_InnoDB.svg'" alt="" width="100px">
+                <img :src="'svg/icon PHP Hosting_InnoDB.svg'" alt="" width="100px">
                 <h4 class="title is-4">Database InnoDB Unlimited</h4>
                 <h6 class="subtitle is-6">Jumlah data dan ukuran database yang tumbuh sesuai kebutuhan Anda </h6>
             </div>
             <div class="column is-4 has-text-centered">
-                <img :src="'/svg/icon PHP Hosting_My SQL remote.svg'" alt="" width="100px">
+                <img :src="'svg/icon PHP Hosting_My SQL remote.svg'" alt="" width="100px">
                 <h4 class="title is-4">Wildcard Remote MySQL</h4>
                 <h6 class="subtitle is-6">Mendukung s/d 25 max_user_connections dan 100 max_connections</h6>
             </div>
@@ -283,7 +283,7 @@
                 </p>
             </div>
             <div class="column">
-                <img :src="'/svg/illustration banner support laravel hosting.svg'" alt="">
+                <img :src="'svg/illustration banner support laravel hosting.svg'" alt="">
             </div>
         </div>
     </div>
@@ -404,7 +404,7 @@
 
             </div>
             <div class="column">
-                <img :src="'/images/Image support.png'" alt="">
+                <img :src="'images/Image support.png'" alt="">
             </div>
         </div>
     </div>
@@ -421,15 +421,15 @@
             </div>
             <div class="level-right">
                 <div class="level-item">
-                    <a href="#"><img :src="'/images/facebook.png'"  alt="" width="40"> </a> <a href="#" class="button is-static">80k</a>
+                    <a href="#"><img :src="'images/facebook.png'"  alt="" width="40"> </a> <a href="#" class="button is-static">80k</a>
 
                 </div>
                 <div class="level-item">
-                    <a href="#"><img :src="'/images/twitter.png'"  alt="" width="40"> </a> <a href="#" class="button is-static">80k</a>
+                    <a href="#"><img :src="'images/twitter.png'"  alt="" width="40"> </a> <a href="#" class="button is-static">80k</a>
 
                 </div>
                 <div class="level-item">
-                    <a href="#"><img :src="'/images/google-plus.png'"  alt="" width="40"> </a> <a href="#" class="button is-static">80k</a>
+                    <a href="#"><img :src="'images/google-plus.png'"  alt="" width="40"> </a> <a href="#" class="button is-static">80k</a>
                 </div>
             </div>
         </div>
@@ -540,13 +540,13 @@
                 <div class="column">
                     <div class="level">
                         <div class="level-item">
-                            <a href="#"><figure class="image is-64x64"> <img :src="'/images/facebook-black.png'" alt="" class="is-rounded border-img"> </figure></a>
+                            <a href="#"><figure class="image is-64x64"> <img :src="'images/facebook-black.png'" alt="" class="is-rounded border-img"> </figure></a>
                         </div>
                         <div class="level-item">
-                            <a href="#"><figure class="image is-64x64"><img :src="'/images/twitter-black.png'" alt="" class="is-rounded border-img"></figure> </a>
+                            <a href="#"><figure class="image is-64x64"><img :src="'images/twitter-black.png'" alt="" class="is-rounded border-img"></figure> </a>
                         </div>
                         <div class="level-item">
-                            <a href="#"><figure class="image is-64x64"><img :src="'/images/google-plus-black.png'" alt="" class="is-rounded border-img"></figure> </a>
+                            <a href="#"><figure class="image is-64x64"><img :src="'images/google-plus-black.png'" alt="" class="is-rounded border-img"></figure> </a>
                         </div>
                     </div>
                 </div>
@@ -585,21 +585,15 @@
     </div>
 
 </template>
-<script>
-// export default {
-// data: function() {
-//     return {
-//         showNav: false
-//     }
-// }
-// }
-const baseUrl = 'http://localhost:8000/';
-    export default {
+<style media="screen">
 
+</style>
+<script>
+    export default {
         data() {
             return {
                 pricing: [],
-                showNav: false
+                showNav: false,
             }
         },
         created() {
@@ -609,14 +603,5 @@ const baseUrl = 'http://localhost:8000/';
                 this.pricing = response.data.data;
             });
         }
-        // methods: {
-        //     loadData() {
-        //         axios
-        //         .get("http://localhost:8000/api/pricing")
-        //         .then(response => {
-        //             this.pricing = response.data.data;
-        //         });
-        //     }
-        // }
     }
 </script>
